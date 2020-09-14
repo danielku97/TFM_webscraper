@@ -1,2 +1,2 @@
 # TFM_webscraper
-Scrapes member request info for TFM
+Simple Google extension that processes member request info for an unknown, ambiguious social media site.
