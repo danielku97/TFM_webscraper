@@ -1,0 +1,17 @@
+{
+  	"name": "IDM Facebook Web Scraper",
+  	"version": "1.0",
+  	"description": "Scrapes names and emails from Facebook member approval list",
+  	"permissions": ["declarativeContent", "storage","tabs", "<all_urls>"],
+  	"browser_action": {  
+	  	"default_icon": "images/idm16.png",  
+		"default_popup": "popup.html"  
+	},
+	"icons": {
+  		"16": "images/tfm16.png",
+  		"32": "images/tfm32.png",
+  		"48": "images/tfm48.png",
+  		"128": "images/tfm128.png"
+	},
+  	"manifest_version": 2
+}

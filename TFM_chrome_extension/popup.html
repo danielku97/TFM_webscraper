@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .button-div {
+        height: 100px;
+        width: 120px;
+        outline: thick;
+        position: relative;
+      }
+      .idm-logo{
+        height: 90%;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 2px;
+        margin-top: 2px;
+      }
+      .p-text{
+        text-align: center;
+        font-size: 14px;
+      }
+      button {
+        height: 50px;
+        width: 50px;
+        outline: thick;
+        background-color: #FFF;
+        position:absolute; 
+        margin-left:-25px;
+        left:50%;
+        bottom:0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-div">
+      <p class="p-text">Process Member Requests</p>
+      <button id="clickActivity">
+        <img class="idm-logo" src="images/tfm48.png">
+      </button>
+      <script src="popup.js"></script>
+    </div>
+    <hr>
+    <div class="button-div">
+      <p class="p-text">Scroll to bottom of page (30 seconds)</p>
+      <button id="clickForScroll">
+        <img class="idm-logo" src="images/tfm48.png">
+      </button>
+      <script src="scrollBot.js"></script>
+    </div>
+  </body>
+</html>
