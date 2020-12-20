@@ -10,7 +10,7 @@ async function scroll(){
 	}
 }
 
-scrollTime = 60;
+scrollTime = 120;
 
 // customTime = document.getElementById("scrollTime").innerHTML;
 // CustomTime gets passed in from scrollBot.js google chrome file thing
