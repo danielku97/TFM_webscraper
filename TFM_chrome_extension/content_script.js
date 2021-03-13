@@ -91,7 +91,8 @@ function scrapeScript(suspectedMac, isObesity) {
  			var consentToRules = results[3];
  			if (consentToRules.toLowerCase() == "no response") {
  				requestNoRulesCounter++;
- 				return;
+ 				// March 13th 2021 - We want to return everyone, even if they don't consent to rules
+ 				// return;
  			}
  			// Make a best guess on their first name
  			var newName = name.split(" ");
